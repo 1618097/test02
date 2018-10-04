@@ -40,7 +40,8 @@ private static void writeToFile(InputStream in, File file) {
 	     }
 	     out.close();
 	     in.close();
-	   } catch (Exception e) {
+	   } catch (Exception e) 
+	   {
 	     e.printStackTrace();
 	     
 	   }
