@@ -26,6 +26,7 @@ public static void main(String[] args) {
 			writeToFile(WaveUtils.reWriteWaveHeader(in), new File("output.wav"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
