@@ -15,6 +15,7 @@ public class TexttoSpeech {
 public static void main(String[] args) {	
 	TextToSpeech synthesizer = new TextToSpeech();
 	   synthesizer.setUsernameAndPassword("1618097", "1618097");
+	   
 	   String translation = "えいさーーーーいはらますこーーーーーい";
 	   SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 		       .text(translation)
